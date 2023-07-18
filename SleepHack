@@ -5788,7 +5788,7 @@ end)
         end
     end)
     
-    Main:True("Auto Farm Observation Hop",_G.AutoObservation_Hop,function(value)
+    Main:Toggle("Auto Farm Observation Hop",true,function(value)
         _G.AutoObservation_Hop = value
     end)
     
