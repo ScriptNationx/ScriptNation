@@ -5766,7 +5766,7 @@ spawn(function()
 	end
 end)
     
-       Main:Toggle("Auto Farm Observation",_G.AutoObservation,function(value)
+       Main:True("Auto Farm Observation",_G.AutoObservation,function(value)
         _G.AutoObservation = value
         StopTween(_G.AutoObservation)
     end)
@@ -5788,7 +5788,7 @@ end)
         end
     end)
     
-    Main:Toggle("Auto Farm Observation Hop",_G.AutoObservation_Hop,function(value)
+    Main:True("Auto Farm Observation Hop",_G.AutoObservation_Hop,function(value)
         _G.AutoObservation_Hop = value
     end)
     
