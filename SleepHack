@@ -7984,8 +7984,8 @@ if World3 then
 
 Weapon:Seperator(" Observation Haki V2 ")
 
-Weapon:Toggle("Auto Observation Haki V2",_G.AutoObservationHakiV2,function(x)
-		_G.AutoObservationHakiV2 = x
+Weapon:Toggle("Auto Observation Haki V2",_G.AutoObservationHakiV2,function(✅)
+		_G.AutoObservationHakiV2 = ✅
 	end)
 
 	spawn(function()
